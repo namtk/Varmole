@@ -21,10 +21,11 @@ This script need no installation, but has the following requirements:
 python Varmole.py /path/to/input/file.csv
 
 The script will compute and output 4 output files:
-. file_Predictions.csv: the disease prediction outcomes
-. file_FeatureImportance.csv: the importance of SNPs and TFs input that gives rise to the prediction outcomes
-. file_GeneImportance.csv: the importance of gene expressions that gives rise to the prediction outcomes
-. file_ConnectionImportance.csv: the importance of eQTL/GRN connections that gives rise to the prediction outcomes
+
+* file_Predictions.csv: the disease prediction outcomes
+* file_FeatureImportance.csv: the importance of SNPs and TFs input that gives rise to the prediction outcomes
+* file_GeneImportance.csv: the importance of gene expressions that gives rise to the prediction outcomes
+* file_ConnectionImportance.csv: the importance of eQTL/GRN connections that gives rise to the prediction outcomes
 
 For more information:
     python Varmole.py -h
